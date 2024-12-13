@@ -1,6 +1,9 @@
 userInput= input("enter string:")
+lowercase=userInput.lower()
 
-if userInput == userInput[::-1]:    #we can also write userInput == userInput.reverse()
+if lowercase == lowercase[::-1]:  
     print("palindrome") 
 else:
     print("not palindrome")
+
+
